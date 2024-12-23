@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> <!-- Menghubungkan file CSS untuk tampilan -->
+    <title>Form Data</title>
+</head>
+<body>
+    <h1>Form Data Pengguna</h1> <!-- Judul halaman -->
+
+    <!-- Formulir untuk memasukkan data pengguna -->
+    <form id="dataForm" method="POST" action="proses.php"> <!-- Data dikirim ke file "proses.php" -->
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required> <!-- Input untuk nama pengguna -->
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required> <!-- Input untuk email pengguna -->
+
+        <label>Jenis Kelamin:</label>
+        <div class="radio-group">
+            <!-- Input untuk memilih jenis kelamin -->
+            <label>
+                <input type="radio" id="male" name="gender" value="male"> Laki-laki
+            </label>
+            <label>
+                <input type="radio" id="female" name="gender" value="female"> Perempuan
+            </label>
+        </div>
+
+        <label for="newsletter">Berlangganan Newsletter:</label>
+        <input type="checkbox" id="newsletter" name="newsletter"> <!-- Checkbox untuk langganan newsletter -->
+
+        <button type="submit">Kirim</button> <!-- Tombol untuk mengirim data -->
+    </form>
+
+    <script src="script.js"></script> <!-- Menghubungkan file JavaScript -->
+</body>
+</html>

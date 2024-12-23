@@ -64,13 +64,30 @@ Repository ini dibuat untuk memenuhi tugas Ujian Akhir Semester Mata Kuliah Pemr
 
 ### **5. Bonus: Hosting Aplikasi Web (20%)**
 - **Langkah-langkah Hosting Aplikasi Web (5%)**:
-  Aplikasi di-host menggunakan platform yang mendukung PHP dan MySQL.
+  Berikut adalah langkah-langkah untuk meng-hosting situs web statis Anda secara gratis menggunakan GitHub Pages:
+
+  1. **Buat Repository di GitHub**:
+     - Masuk ke akun GitHub Anda.
+     - Klik tombol "New" untuk membuat repository baru.
+     - Beri nama repository Anda dengan format `username.github.io`, di mana `username` adalah nama pengguna GitHub Anda.
+     - Pastikan repository diatur sebagai "Public".
+     - Klik tombol "Create repository".
+
+  2. **Unggah File Situs Web Anda**:
+     - Di dalam repository yang baru dibuat, klik tombol "Add file" dan pilih "Upload files".
+     - Unggah semua file situs web statis Anda (HTML, CSS, JavaScript, dll.).
+     - Pastikan file utama Anda bernama `index.html` dan berada di direktori utama.
+     - Setelah semua file diunggah, gulir ke bawah dan klik "Commit changes" untuk menyimpan perubahan.
+
+  3. **Aktifkan GitHub Pages**:
+     - Masuk ke tab "Settings" di repository Anda.
+     - Di sidebar kiri, klik "Pages".
+     - Di bagian "Source", pilih branch `main` dan folder `/ (root)`.
+     - Klik "Save" untuk mengaktifkan GitHub Pages.
+     - Setelah beberapa menit, situs web Anda akan tersedia di `https://username.github.io/`.
+
 - **Pemilihan Penyedia Hosting (5%)**:
-  Hosting dipilih berdasarkan kebutuhan aplikasi, seperti kecepatan, kapasitas, dan harga.
-- **Keamanan Aplikasi Web (5%)**:
-  Langkah-langkah keamanan seperti penggunaan HTTPS, sanitasi input, dan proteksi terhadap serangan SQL Injection diterapkan.
-- **Konfigurasi Server (5%)**:
-  Konfigurasi server meliputi pengaturan domain, SSL, dan database.
+  Hosting yang saya pilih adalah GitHub Pages karena mudah dilakukan dan tidak memungut biaya.
 
 ---
 

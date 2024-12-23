@@ -86,5 +86,5 @@ Repository ini dibuat untuk memenuhi tugas Ujian Akhir Semester Mata Kuliah Pemr
 ## Author
 Nama: **Muhammad Ridho Sandi Kurniawan**  
 NIM: **121140046**  
-Mata Kuliah: Pemrograman Web
+Mata Kuliah: Pemrograman Web  
 Dosen Pengampu: Muhammad Habib Algifari, S.Kom., M.TI.
